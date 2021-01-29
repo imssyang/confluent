@@ -1,5 +1,6 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+# Ignore by git
+archive
+bin
+lib
+share
+src
