@@ -8,7 +8,7 @@ Type=simple
 User=confluent
 Group=confluent
 Environment="JAVA_HOME=/opt/java"
-Environment="LOG_DIR=/opt/confluent/log/kafka-rest.log"
+Environment="LOG_DIR=/opt/confluent/log/kafka-rest"
 ExecStart=/opt/confluent/bin/kafka-rest-start /opt/confluent/conf/kafka-rest/kafka-rest.properties
 LimitNOFILE=100000
 TimeoutStopSec=180
